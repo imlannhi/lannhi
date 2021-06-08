@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0
+}
+#wrapper{
+	width: 100%;
+	background: #F2CECE;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	background: #F2CECE
+}
+.header{
+	width: 100%;
+	height: 80px;
+	overflow: hidden
+}
+.logo{
+	width: 50%;
+	line-height: 80px;
+	float: left;
+}
+.logo a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #8C4545
+}
+.logo a:hover{
+	color: chocolate
+}
+.menu{
+	width: 50%;
+	float: right
+}
+.menu ul{
+	list-style: none;
+	text-align: right
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 30px;
+	line-height: 80px
+}
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #8C4545
+}
+.menu ul li a:hover{
+	color:chocolate
+}
+.btn{
+	background: rgba(255,255,255,1.00);
+	padding: 10px 30px;
+}
+.main{
+	width: 100%
+}
+.banner{
+	width: 100%;
+	background: #F2CECE;
+	padding: 40px 80px
+}
+.img-banner{
+	width: 50%;
+	float: left
+}
+.text-box{
+	width: 50%;
+	height: 300px;
+	float: right;
+	padding-top: 100px
+}
+.text-box h4{
+	margin: 0 55px 20px 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #8C4545
+}
+.text-box h1{
+	margin: 0 55px 55px 55px;
+	font-family: 'Lato', sans-serif;
+	color: #8C4545;
+	font-size: 33px;
+	font-weight: 400;	
+}
+.text-box p{
+	margin: 30px 120px 50px 55px;
+	font-family: 'Lato', sans-serif;
+	color: #8C4545;
+	font-size: 16px;
+	font-weight: 400
+}
+.text-box a{
+	margin: 40px 55px 40px 55px;
+	text-decoration: none;
+	color: #8C4545;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300
+}
+.text-box a:hover{
+	color: chocolate
+}
+.intro{
+	width: 100%;
+}
+.your h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #8C4545;
+	text-align: center;
+	margin-top: 70px
+}
+.just h3{
+	color: #8C4545;
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px
+}
+.your-brand p{
+	color: #8C4545;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+	margin: 40px 350px
+}
+.lets h2{
+	color: #8C4545;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 60px
+}
+.lets h2:hover{
+	color: chocolate
+}
+.section2{
+	width: 100%;
+	height: 1000px;
+	background: #A66868;
+	padding: 70px 70px 
+}
+.box{
+	width: 25%;
+	background: rgba(112,23,25,1.00);
+	height: 1000px;
+	float: left;
+	margin-left: 50px
+}
+.text h1{
+	color: #8C4545;
+	font-family: 'Lato', sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+	text-align: left;
+	padding: 20px 30px 0 40px
+}
+.text h2{
+	color: #8C4545;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 50px 0 20px 20px
+}
